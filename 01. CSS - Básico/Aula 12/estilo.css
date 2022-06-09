@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.foto {
+    width: 200px;
+    border: 5px solid rgb(1, 1, 59);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(2, 0, 145);
+}
+
+div h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+}
+
+div h2 {
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+div a {
+    text-decoration: none;
+}
+div a img {
+    width: 25px;
+}
+
+.github {
+    margin: 0 10px 0;
+}
+
+.profile{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.exp { 
+    list-style: none;
+    padding-left: 10px;
+}
+
+h4 {
+    margin-bottom: 0;
+}
+h5 {
+    margin-top: 1px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 4px;
+}
+
+ul li p {
+    margin-top: 1px;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 10px 0;
+}
