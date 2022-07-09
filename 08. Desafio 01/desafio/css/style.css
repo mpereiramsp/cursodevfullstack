@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  width: 800px;
+  align-self: center;
+  margin-inline: auto;
+}
+
+.logo {
+  height: 140px;
+  margin-top: 155px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.inputarea {
+  width: 100%;
+  font-size: 25px;
+  border-style: hidden;
+  border-radius: 7px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.check {
+  margin-top: 20px;
+}
+
+.inscricao {
+  font-size: 20px;
+  letter-spacing: 0.3px;
+}
+
+button {
+  width: 100%;
+  font-size: 25px;
+  border: hidden;
+  border-radius: 7px;
+  padding: 15px;
+  color: white;
+  background-color: rgb(41, 82, 246);
+  margin-top: 30px;
+}
+
+button:hover {
+  background-color: rgb(36, 64, 176);
+  transition-duration: 0.3s;
+}
